@@ -1,0 +1,72 @@
+/* Main Body Layout*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #74b9ff;
+  color: #273c75;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+
+/* Navigation Bar */
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Background Image */
+.hero-banner {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.page-wrapper {
+  
+}
