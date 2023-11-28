@@ -28,23 +28,24 @@ p {
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #74b9ff;
+  background-color: #535c68;
   color: #273c75;
 }
 
 header h1 {
   display: inline-block;
   font-size: 48px;
+  background-color: #74b9ff;
+  color:#535c68;
 }
 
 
 /* Navigation Bar */
 header nav {
-  padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 header nav ul {
@@ -56,6 +57,10 @@ header nav ul li {
   margin-left: 25px;
 }
 
+.nav-item { 
+  color: #74b9ff;
+}
+
 /* Background Image */
 .hero-banner {
   height: 200px;
@@ -64,9 +69,20 @@ header nav ul li {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
+#hero-text {
+  background-color: #74b9ff;
+  width: 230px;
+  position: absolute;
+  bottom: 10px;
+  right: 80px;
+  font-size: 19px;
+}
+
+/*Main Content*/
 
 .page-wrapper {
-  
+  display: flex;
 }
