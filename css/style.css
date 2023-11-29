@@ -7,8 +7,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff;
 }
 
 h1,
@@ -27,16 +27,16 @@ p {
 /* Header */
 header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #535c68;
-  color: #273c75;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: 	#ffb5b5;
+  color: #fab1a0;
 }
 
 header h1 {
   display: inline-block;
   font-size: 48px;
-  background-color: #74b9ff;
-  color:#535c68;
+  background-color: 	#ffb5b5;
+  color: #ffffff;
 }
 
 
@@ -44,7 +44,7 @@ header h1 {
 header nav {
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
 }
 
@@ -58,7 +58,7 @@ header nav ul li {
 }
 
 .nav-item { 
-  color: #74b9ff;
+  color: #000000;
 }
 
 /* Background Image */
@@ -66,23 +66,21 @@ header nav ul li {
   height: 200px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../images/banner.PNG");
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
 #hero-text {
-  background-color: #74b9ff;
+  background-color: #ddaf83;
   width: 230px;
   position: absolute;
-  bottom: 10px;
-  right: 80px;
-  font-size: 19px;
+  bottom: 16px;
+  right: 30px;
+  font-size: 15px;
 }
 
 /*Main Content*/
 
-.page-wrapper {
-  display: flex;
-}
+/* .page-wrapper 
