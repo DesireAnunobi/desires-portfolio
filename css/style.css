@@ -100,13 +100,37 @@ header nav ul li {
   margin-left: 20px;
 }
 
+.page-wrapper1 {
+  width: 95%;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+
 .page-section {
   margin-bottom: 20px;
   padding: 45px;
-  height: 510px;
+  height: 560px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #e66767;
-  color: #ffffff;
+  background-color: #fab1a0;
+  color: #eb3b5a;
+}
+
+#page-section1 {
+  height: 140px;
+}
+
+#page-section2 {
+  height: 280px;
+}
+
+#page-section3 {
+  height: 460px;
+}
+
+#page-section4 {
+  height: 400px;
 }
 
 .page-section img {
@@ -282,4 +306,13 @@ button {
   margin-left: 30px;
 }
 
-
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: #f0f0f0; 
+  text-align: center;
+  padding: 10px;
+}
