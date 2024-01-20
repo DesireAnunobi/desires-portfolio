@@ -19,9 +19,9 @@ I encountered some challenges on the way including:
 
 ## Link to the deployed application here:
 
-Github Repo: 
+Github Repo: https://github.com/DesireAnunobi/desires-portfolio
 
-Website address: 
+Website address: https://desireanunobi.github.io/desires-portfolio/
 
 ## Table of Contents 
 
